@@ -1,0 +1,30 @@
+body{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.home{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.play-button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #414141;
+    color: white;
+    border: none;
+}
